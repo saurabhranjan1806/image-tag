@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import SearchInput from './components/SearchInput';
 import Tag from './components/Tag';
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
   return (
     <div className="App flex flex-col align-center">
       <h2 className="text-3xl font-bold underline">Hello Uber!</h2>
+
+      <SearchInput />
 
       <div className="w-96 h-96 flex-row mt-10 relative">
         <img
