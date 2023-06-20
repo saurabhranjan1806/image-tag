@@ -1,0 +1,14 @@
+{
+  "resourceName": "s33584b650",
+  "policyUUID": "3584b650",
+  "bucketName": "imagetagdbb75225fdd34dd198471797fc25a1a7",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "imagetagfe26cb4a",
+  "groupAccess": {}
+}
